@@ -69,10 +69,7 @@ describe('Visual monitor testing', function() {
             '.carousel-stage',
             // Footer carousel.
             '.jcarousel-wrapper',
-
           ],
-        remove: [],
-        hide: [],
         screenWidth: selectedCaps == 'chrome' ? [960] : undefined,
       }, resultsCallback)
       .call(done);
