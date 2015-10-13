@@ -1,5 +1,5 @@
 Feature: Compareison
-  In order to be able add to compare list a product:
+  In order to be able add to compare list a product
   As an anonymous user
   We need to be able to see the product in the comparison list.
 
