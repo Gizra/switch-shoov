@@ -30,9 +30,9 @@ class FeatureContext extends MinkContext implements SnippetAcceptingContext {
   }
 
   /**
-   * @Then I check the product to to compare
+   * @Then I check the product to compare
    */
-  public function iCheckTheProductToToCompare() {
+  public function iCheckTheProductToCompare() {
     $this->iWaitForCssElement('.compare_con');
     $element = $this->getSession()->getPage()->find('css', '.compare_con .custom_checkbox');
     $this->getSession()->wait(3000);

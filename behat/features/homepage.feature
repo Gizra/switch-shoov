@@ -7,5 +7,5 @@ Feature: Compareison
   Scenario: Visit the homepage
     Given I am an anonymous user
     When  I am on "cars/mazda/3/2010/6782.html"
-    Then  I check the product to to compare
+    Then  I check the product to compare
     Then  I should see the product in comparison list
